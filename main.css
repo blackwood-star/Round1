@@ -1,0 +1,774 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manjari&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  overflow-x: hidden;
+  background-color: #FFFFFF;
+}
+
+/* .container-fluid {
+  height: 750px;
+} */
+
+.gradient{
+  background: linear-gradient(259.09deg, rgba(0, 0, 0, 0) 29.83%, rgba(0, 0, 0, 0.33) 62.06%, rgba(2, 2, 2, 0.88) 97.02%);
+}
+
+.halfshade1{
+  display: flex;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.88) 100%);
+  justify-content: center;
+  flex-direction: column;
+  align-items:center;
+  padding: 5.4rem 0;
+}
+
+.business{
+  width: 90%;
+  float:right;
+}
+
+.header-back {
+  background-image: url("./assets/header_background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 100%;
+  display: block;
+  z-index: -1;
+}
+
+.mycontainer {
+  overflow:hidden;
+}
+
+.mycontainer .pic-container{
+  display:flex;
+  animation: marquee 10s infinite linear;
+}
+
+.mycontainer .pic-container .pic{
+  flex-basis: 20%;
+  flex-shrink:0;
+  opacity:.4;
+}
+
+.mycontainer img{
+  width:100%;
+  object-fit: cover;
+}
+
+.partner{
+  font-size: 26px;
+  line-height: 30px;
+  font-weight: 400;
+  font-family: "Manjari", sans-serif;
+}
+
+.header {
+  max-width: 1400px;
+  margin: 0px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.h1 {
+  font-size: 75px;
+  font-family: "Righteous", cursive;
+  color: white;
+  line-height: 75px;
+  font-weight:400;
+}
+
+.h5 {
+  font-size: 1.5rem;
+  font-family: "Righteous", cursive;
+  color: darkslategray;
+}
+
+.bank-section{
+  padding: 3rem;
+}
+
+.creditcard{
+  width: 26%;
+}
+
+.nav-layer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 18px 25px;
+  border-radius: 20px;
+  width: 100%;
+}
+.nav-layer .menu {
+  flex: 1;
+  padding: 0 30px;
+}
+.nav-layer .menu ul {
+  width: 100%;
+  text-align: end;
+}
+.nav-layer .menu ul li {
+  width: 10%;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 18.75px;
+  font-weight: 700;
+  font-family: "Manjari", sans-serif;
+
+}
+
+.header-content {
+  width: 100%;
+}
+.header-content .content {
+  width: 40%;
+}
+.header-content .content p {
+  line-height: 32.4px;
+  font-family: "Manjari", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.Travel-agent{
+  font-family: "Manjari", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 6px;
+  Padding:8px;
+  background-color: #D9D9D966;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100%;
+}
+.card-footer .card {
+  width: 47%;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 20px;
+}
+.card-footer .card .card-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.card-footer .card .card-content div {
+  word-wrap: break-word;
+  width: 80%;
+}
+
+.h2 {
+  font-size: 2rem;
+  font-family: "Righteous", cursive;
+}
+
+.section-2 {
+  display: flex;
+  justify-content: center;
+  background-image: url("./assets/sec-2.jpg");
+  background-size: cover;
+  color: white;
+}
+
+.section-2 .sec2-heading p {
+  text-align: center;
+  padding: 25px 0px;
+  font-size: 18px;
+  color:white;
+  font-family: "Manjari", sans-serif;
+}
+.section-2 .sec2-heading .market {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 3rem;
+}
+.section-2 .sec2-heading .market > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Righteous", cursive;
+  justify-content: center;
+  align-items: center;
+}
+.section-2 .sec2-heading .market > div > div {
+  padding-left: 6px;
+  line-height: 36px;
+}
+.section-2 .sec2-heading .market > div > div .count {
+  font-size: 41.4px;
+}
+.section-2 .sec2-heading .market > div > div span {
+  font-size: 21.99px;
+  font-family: "Manjari", sans-serif;
+}
+
+.section-3 .deliver .tour {
+  width: 43%;
+}
+.section-3 .deliver .deliver-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.section-3 .deliver .deliver-content > div:nth-child(1) {
+  font-size: 4.5rem;
+  font-family: "Righteous", cursive;
+  line-height: 4.2rem;
+  padding: 0;
+  margin: 0;
+}
+.section-3 .deliver .deliver-content > div:nth-child(1) span {
+  color: darkslategray;
+  font-size: 3.2rem;
+}
+.section-3 .deliver .deliver-content p {
+  padding: 25px 0px;
+  font-size: 18px;
+  font-family: "Manjari", sans-serif;
+}
+
+.sub-rooms {
+  width: 85%;
+}
+
+.picture img {
+  border-radius: 15px;
+}/*# sourceMappingURL=main.css.map */
+
+.section-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    width: 90%; 
+    padding: 4rem 0;
+}
+
+.backhead-simple{
+  position: absolute;
+  display: block;
+  background-color: #F7F7FA;
+  width: 100%;
+  z-index:-1;
+  left:0;
+}
+
+.sec4-heading > div:nth-child(2){
+    font-size: 45px;
+    line-height: 52.42px;
+    font-family: "Righteous", cursive;
+}
+
+.num_sec{
+    margin: 4rem 0;
+    width:90%;
+    float:right;
+}
+
+.check_this{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #0C0C0C;
+  font-family: "Manjari", sans-serif;
+}
+
+.mac_pic{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
+.mac_pic img{
+    width: 80%;
+}
+
+.section-5{
+    background-image: url("./assets/island.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.backshade{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2.8rem 0;
+    background-color:rgba(0, 0, 0, .5);
+}
+
+.sec-5{
+    width: 90%;
+}
+
+.benefits{
+    font-size: 4.2rem;
+    font-family: "Righteous", cursive;
+    line-height:4.2rem;
+    padding: 3rem 0;
+}
+
+.sec-5 .benefits div > span{
+    font-size: 3.2rem;
+    font-family: "Righteous", cursive;
+    color:white;
+}
+
+.sec-5 p{
+    font-size: 18px;
+    font-family: "Manjari", sans-serif;
+    padding: 15px 0px;
+}
+
+.benefits button{
+    font-family: "Righteous", cursive;
+    font-size: 18px;
+    color: black;
+}
+
+.minus{
+    border-radius: 10px;
+    bottom: -20px;
+    width: 100px;
+    border-bottom: 5px solid white;
+}
+
+.supports {
+    padding: 4rem 0;
+}
+
+.supports > div{
+    padding: 10px 15px;
+    border-radius:5px;
+}
+
+.instant_booking{
+    padding-top:1.4rem;
+    font-size: 18px;
+    font-family: "Manjari", sans-serif;
+    font-weight: 600;
+}
+
+.section-6{
+    background-image: url("./assets/eiffel2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.halfshade{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+}
+
+.sec-6{
+    width: 90%;
+    margin: 2rem 0;
+}
+
+.effel{
+    font-size: 45px;
+    line-height: 45px;
+    font-family: "Righteous", cursive;
+    padding: 2rem 0px;
+    color:white;
+}
+
+.sec-6 p{
+    font-size: 18px;
+    font-family: "Manjari", sans-serif;
+    padding: 1.4rem 0px;
+    line-height: 32.4px;
+    font-weight: 500;
+    color:white;
+    width: 78%;
+}
+
+.gallery_group{
+    margin-top: 7rem;
+}
+
+.gallery{
+    margin-bottom: 2rem;
+}
+
+.gal_item img{
+    width: 68.93px;
+    height: 61.9px;
+}
+
+.dash{
+    border-top: 1px solid white;
+    padding: 10px 0;
+}
+
+.cities{
+    font-size: 18px;
+    font-family: "Manjari", sans-serif;
+    padding: 15px 0px;
+}
+
+.city-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.city-list > .city-items{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.city-items{
+    font-size: 18px;
+    font-family: "Manjari", sans-serif;
+}
+
+.section-7{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-7{
+    width: 90%;
+    margin: 2rem 0;
+}
+
+.form-procedure{
+    font-size: 45px;
+    line-height: 45px;
+    font-family: "Righteous", cursive;
+    padding: 1rem 0px;
+    color:#194558;
+}
+
+.sec-7 p{
+    font-size: 18px;
+    font-family: "Manjari", sans-serif;
+    padding: .7rem 0px;
+    line-height: 32.4px;
+    font-weight: 700;
+    color:#000000;
+    width: 78%;
+}
+
+.form{
+    margin-top:3rem;
+}
+
+.fieldsofform{
+    padding: 10px;
+}
+
+.fieldsofform input{
+    background-color: #EDEDED;
+    display: block;
+    border-radius: 10px;
+    width:100%;
+    padding: 10px;
+}
+
+.submit{
+    margin: 2rem 0;
+}
+
+.submit button{
+    width: 14%;
+}
+
+.foot-1{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: rgba(247, 247, 250, 1);
+    width: 30%;
+    padding: 3rem 2rem;
+}
+.foot-1 > div{
+    width: 80%;
+}
+
+.foot-2{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: rgba(211, 211, 233, 0.36);
+    width:30%;
+    padding: 3rem 2rem;
+}
+
+.foot-2 .Quick{
+    font-size: 20px;
+    font-weight:400;
+    font-family: "Righteous", cursive;
+    color: rgba(43, 56, 86, 1);
+    margin-bottom: 15px;
+}
+
+.copyrights{
+    font-family: "Manjari", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17.58px;
+    color: black;
+}
+
+.foot-2 ul > li{
+    font-family: "Manjari", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17.58px;
+    color: rgba(72, 72, 72, 0.7);
+    padding: 5px 0;
+}
+
+.foot-3 .Quick{
+    font-size: 20px;
+    font-weight:400;
+    font-family: "Righteous", cursive;
+    color: rgba(43, 56, 86, 1);
+    margin-bottom: 15px;
+}
+
+.foot-3{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: rgba(226, 226, 255, 0.76);
+    width:40%;
+    padding: 3rem 2rem;
+}
+
+.footer-login{
+    font-family: "Manjari", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17.58px;
+}
+
+.footer-login > div:nth-child(1){
+    font-weight: 400;
+    background: rgba(43, 56, 86, 1);
+
+}
+
+.footer-login > div{
+    padding: 13px 16px;
+}
+
+@media (max-width: 1024px) {
+  .container .pic-container .pic{
+      flex-basis:   25%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container .pic-container .pic{
+      flex-basis:   33.33%;
+  }
+}
+
+@keyframes marquee {
+   0% {
+    transform: translateX(0);
+   }
+   100% {
+    transform: translateX(-100%);
+   }
+}
+
+@media (max-width: 1024px) {
+  @keyframes marquee {
+    0% {
+     transform: translateX(0);
+    }
+    100% {
+     transform: translateX(-125%);
+    }
+ }
+}
+
+@media (max-width: 768px) {
+  @keyframes marquee {
+    0% {
+     transform: translateX(0);
+    }
+    100% {
+     transform: translateX(-186.65%);
+    }
+ }
+}
+
+@media (max-width: 920px){
+  .header-content .content {
+    width:100%;
+  }
+
+  .creditcard{
+    width: 50%;
+  }
+
+  .bank-section{
+    padding: 0;
+  }
+
+  .bank_sec > div:nth-child(1){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bank_sec > div:nth-child(2){
+    text-align: center;
+  }
+
+  .team_group{
+    justify-content: center;
+  }
+
+  .card-footer .card .card-content div{
+    padding-right: 5px;
+  }
+
+  .mycontainer .pic-container .pic{
+    flex-basis: 56%;
+  }
+
+  .admin-login{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .card-footer{
+    flex-direction:column;
+    gap: 8px;
+  }
+
+  .card-footer .card{
+    width:100%;
+  }
+
+  .section-2 .sec2-heading .market{
+    flex-direction: column;
+    gap:12px;
+    padding-top:1rem;
+  }
+
+  .section-2 .sec2-heading .market > div{
+    padding: 1rem 0;
+  }
+
+  .h2{
+    padding: 0 16px;
+  }
+
+  .section-2 .sec2-heading p {
+    padding: 25px 16px;
+  }
+
+  .section-3 .deliver .tour {
+    width: 100%;
+  }
+
+  .tour svg{
+    width: 100%;
+    height: 460px;
+  }
+  .section-3 .deliver .deliver-content > div:nth-child(1){
+    text-align:center;
+    padding: 0 16px;
+  }
+
+  .sub-rooms > div > .picture{
+    margin: 10px 0px;
+  }
+
+  .section-4{
+    flex-direction: column;
+    width:100%;
+  }
+  .booking{ 
+    text-align:center;
+    padding: 5px;
+  }
+  .sec4-heading > div:nth-child(2){
+    text-align:center;
+  }
+
+  .benefits button{
+    margin-top: 3rem;
+    margin-left:0;
+  }
+
+  .supports > div{
+    margin-bottom: 1rem;
+  }
+  #second-sec{
+    height: auto !important;
+  }
+  .form{
+    margin-top: 1rem;
+  }
+  .foot-logo svg{
+    width:100%;
+  }
+  .foot-1{
+    flex:1;
+    padding: 1rem 20px;
+  }
+  .foot-2{
+    flex:1;
+    padding: 1rem 20px;
+
+  }
+  .foot-3{
+    flex:1;
+    padding: 1rem 20px;
+  }
+  .footer-login > div{
+    margin-bottom:1rem;
+  }
+}
+
